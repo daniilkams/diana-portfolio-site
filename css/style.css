@@ -1,0 +1,89 @@
+<style>
+
+main nav {
+  display: inline-block;
+  width: 200px;
+  border: black 2px solid;
+  margin-right: 10px;
+  padding: 10px 20px;
+  float: left;
+}
+ 
+main nav ul {
+  padding: 0;
+}
+ 
+main nav ul li {
+  list-style-type: none;
+}
+
+h1 {
+	font-size: 95px;
+	font-family: 'Caveat', cursive;
+	color: #fff;
+}
+
+  .img img {
+	width: 30%;
+	position: absolute;
+    left: 34%;
+    bottom: 0;
+  }
+  
+.t1 h2{
+	font-size: 70px;
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	position: absolute;
+    left: 5%;
+    bottom: 0;
+}
+
+.t2 h2{
+	font-size: 70px;
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	position: absolute;
+    left: 70%;
+    bottom: 0;
+}
+
+h2 {
+	font-size: 60px;
+	font-family: 'Caveat', cursive;
+	color: #fff;
+}
+
+h2 a {
+	color: #fff;
+}
+
+h2 a:hover {
+	color: #97a7ba;
+}
+
+hr {
+	border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+
+body::-webkit-scrollbar {
+ width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+ background-color: #ccc6bb;
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: #e3e3e3;
+ border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+ background-color: #b5b5b5;
+}
+
+</style>
