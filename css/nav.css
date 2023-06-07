@@ -1,34 +1,34 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: start;
     min-height: 100vh;
-    background-color: #067d7d;
+    background: #c2b0c0;
+    font-family: 'Caveat', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
     display: flex;
     justify-content: center;
     align-items: start;
+    padding-left: 0;
 }
 
 li {
     display: block;
     padding: 0 20px;
-    color: #fff;
+    color: #000000;
     font-size: 25px;
-    font-family: sans-serif;
     text-transform: uppercase;
     transition: .5s;
 }
 
 li a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     transition: .5s;
     padding: 10px;
-	
-	font-family: 'Caveat', cursive;
+    font-weight: 500;
 }
 
 ul:hover li a {
@@ -40,3 +40,4 @@ ul:hover li a:hover {
     filter: blur(0px);
     background-color: #b5afa5;
 }
+
